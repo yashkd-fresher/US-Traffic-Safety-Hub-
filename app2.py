@@ -494,9 +494,9 @@ def main():
         
         
         # File paths
-        model_file = st.text_input("Model Path", "/Users/yashkailasdeshmane/Desktop/Final_usa_accidents_project/model/accident_severity_model.pkl")
-        explainer_file = st.text_input("SHAP Explainer Path", "/Users/yashkailasdeshmane/Desktop/Final_usa_accidents_project/model/accident_severity_explainer.pkl")
-        features_file = st.text_input("Features List Path", "/Users/yashkailasdeshmane/Desktop/Final_usa_accidents_project/model/feature_names.pkl")
+        model_file = st.text_input("Model Path", "/Users/yashkailasdeshmane/Desktop/finalusa_accidnets/model/accident_severity_model.pkl")
+        explainer_file = st.text_input("SHAP Explainer Path", "/Users/yashkailasdeshmane/Desktop/finalusa_accidnets/model/accident_severity_explainer.pkl")
+        features_file = st.text_input("Features List Path", "/Users/yashkailasdeshmane/Desktop/finalusa_accidnets/model/feature_names.pkl")
         
         st.caption("Note: Ensure all files are correctly located in the paths specified.")
         
