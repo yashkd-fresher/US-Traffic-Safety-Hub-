@@ -146,8 +146,7 @@ def load_data(dataset_name="sobhanmoosavi/us-accidents"):
                 st.error(f"Error downloading dataset: {e.stderr.decode()}")
                 return None
         
-        # Load CSV file into DataFrame
-        df = pd.read_csv(file_path)
+        
         
         # Convert time columns to datetime
         df['Start_Time'] = pd.to_datetime(df['Start_Time'], format='mixed')
